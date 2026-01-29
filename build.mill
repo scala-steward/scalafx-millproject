@@ -6,7 +6,7 @@ import mill.*, scalalib.*
 object millMinimal extends ScalaModule:
   def jvmId = "temurin:22.0.2" // JavaFX 24 requires JDK version >= 22
 
-  def scalaVersion = "3.7.2"
+  def scalaVersion = "3.7.4"
 
   // Add dependency on JavaFX libraries
   val javaFXVersion = "24"
